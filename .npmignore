@@ -1,0 +1,42 @@
+# 开发配置文件
+.*
+!.gitignore
+!.npmignore
+
+# 测试相关
+test/
+coverage/
+__tests__/
+*.test.js
+*.spec.js
+
+# 构建工具
+webpack.config.js
+rollup.config.js
+babel.config.js
+
+# 文档
+docs/
+CHANGELOG.md
+CONTRIBUTING.md
+
+# 编辑器配置
+.vscode/
+.idea/
+
+# 日志
+*.log
+logs/
+
+# 本地环境
+.env
+.env.local
+
+# 其他
+dist/tsconfig.tsbuildinfo
+
+# Dependency directories
+node_modules
+jspm_packages
+node_modules/
+

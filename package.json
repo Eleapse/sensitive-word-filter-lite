@@ -1,0 +1,23 @@
+{
+  "name": "sensitive-word-filter-lite",
+  "version": "1.0.1",
+  "description": "智能敏感词过滤工具，支持上下文识别和白名单",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha test/*.test.js",
+    "lint": "eslint src test"
+  },
+  "keywords": [
+    "sensitive",
+    "filter",
+    "validation",
+    "moderation"
+  ],
+  "author": "xiao_xiang_666",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "eslint": "^8.36.0",
+    "mocha": "^10.2.0"
+  }
+}

@@ -1,0 +1,12 @@
+# 忽略 node_modules 和日志文件
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# 忽略 IDE 特定文件
+.vscode/
+.idea/
+
+# 忽略环境变量文件
+.env
+.env.local
